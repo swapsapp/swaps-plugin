@@ -38,6 +38,26 @@
         "gemini",
         "windsurf"
       ]
+    },
+    {
+      "name": "swaps-wallet-screen",
+      "source": "./wallet-screen",
+      "description": "Check one public blockchain address for available screening signals from your Swaps account, and see what the sources cover.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Supa Labs OÜ",
+        "email": "support@swaps.app"
+      },
+      "homepage": "https://www.swaps.app/search#wallet-screen-coverage",
+      "repository": "https://github.com/swapsapp/swaps-plugin",
+      "license": "MIT",
+      "category": "Security",
+      "tags": [
+        "wallet address",
+        "blockchain",
+        "risk signals",
+        "screening"
+      ]
     }
   ]
 }

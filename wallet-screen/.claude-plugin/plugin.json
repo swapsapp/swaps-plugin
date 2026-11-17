@@ -1,0 +1,21 @@
+{
+  "name": "swaps-wallet-screen",
+  "displayName": "Swaps Wallet Screen",
+  "version": "1.0.0",
+  "description": "Check one public blockchain address for available screening signals from your Swaps account, and see what the sources cover.",
+  "author": {
+    "name": "Supa Labs OÜ",
+    "email": "support@swaps.app",
+    "url": "https://www.swaps.app"
+  },
+  "homepage": "https://www.swaps.app/search#wallet-screen-coverage",
+  "repository": "https://github.com/swapsapp/swaps-plugin",
+  "license": "MIT",
+  "keywords": [
+    "wallet address",
+    "blockchain",
+    "risk signals",
+    "screening"
+  ],
+  "privacyPolicyUrl": "https://www.swaps.app/legal/privacy"
+}
