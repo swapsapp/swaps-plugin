@@ -10,8 +10,7 @@ an address prefix, a known address, or a previous check on a different address.
 For a real check, call screen_wallet_address with the address and the user's explicit network
 choice. Preserve address case: Bitcoin, Tron and Solana addresses are case-sensitive.
 The tool prepares a card and spends nothing; the check runs from the card's button, which names
-its price: the first check on a Swaps account is free, then 1 credit ($1) each, and apps
-connected this way can run at most 5 paid checks a day from the account. Credits are bought on
+its price: the first check on a Swaps account is free, then 1 credit ($1) each. Credits are bought on
 swaps.app, not in the conversation.
 If the tool asks the user to sign in, explain that checks need a Swaps account.
 

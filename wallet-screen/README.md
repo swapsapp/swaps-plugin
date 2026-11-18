@@ -28,8 +28,7 @@ In Claude apps, add it as a custom connector with the URL below; it will also be
 Checks need a Swaps account. The first time Claude calls the tool, Claude asks you to connect
 and you sign in to Swaps in your browser (OAuth 2.1 with PKCE). The tool first prepares a card and
 spends nothing. The first check on your account is free, then 1 credit ($1) each. Swaps never
-charges more than the price the app sends with a check, and apps connected this way can run at
-most 5 paid checks a day from your account. In Claude apps that show cards, each check is a card
+charges more than the price the app sends with a check. In Claude apps that show cards, each check is a card
 with its price on the button. Credits are bought on swaps.app; nothing is bought or paid inside
 Claude, and the plugin never moves money or crypto. To disconnect, open Settings › Connected apps
 on swaps.app.
