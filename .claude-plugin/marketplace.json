@@ -42,7 +42,7 @@
     {
       "name": "swaps-wallet-screen",
       "source": "./wallet-screen",
-      "description": "Check one public blockchain address for available screening signals from your Swaps account, and see what the sources cover.",
+      "description": "Check a public blockchain address for available sanctions matches and previous screening signals, and see what the sources cover.",
       "version": "1.0.0",
       "author": {
         "name": "Supa Labs OÜ",

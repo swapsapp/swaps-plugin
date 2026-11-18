@@ -14,7 +14,7 @@ In Claude Code:
 /plugin install swaps-wallet-screen@swaps-plugins
 ```
 
-In Claude apps, install it from the directory.
+In Claude apps, add it as a custom connector with the URL below; it will also be in the directory once it is listed.
 
 ## What this plugin contains
 
@@ -26,7 +26,7 @@ In Claude apps, install it from the directory.
 ## Account and price
 
 Checks need a Swaps account. The first time Claude calls the tool, Claude asks you to connect
-and you sign in to Swaps in a popup (OAuth 2.1 with PKCE). The tool first prepares a card and
+and you sign in to Swaps in your browser (OAuth 2.1 with PKCE). The tool first prepares a card and
 spends nothing. The first check on your account is free, then 1 credit ($1) each. Swaps never
 charges more than the price the app sends with a check, and apps connected this way can run at
 most 5 paid checks a day from your account. In Claude apps that show cards, each check is a card
@@ -37,7 +37,7 @@ on swaps.app.
 ## What is sent, and where
 
 - To `www.swaps.app`: the address and network you asked to check, and your Swaps sign-in token.
-- Nothing else from your conversation, files or memory is read or sent.
+- The connector's tools take nothing else: nothing from your conversation, files or memory is sent to Swaps by this plugin.
 - Swaps keeps the check on your account as described in the
   [Privacy Policy](https://www.swaps.app/legal/privacy).
 
