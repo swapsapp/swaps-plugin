@@ -10,7 +10,8 @@ address is safe.
 In Claude Code:
 
 ```
-/plugin install swaps-wallet-screen --marketplace swapsapp/swaps-plugin
+/plugin marketplace add swapsapp/swaps-plugin
+/plugin install swaps-wallet-screen@swaps-plugins
 ```
 
 In Claude apps, install it from the directory.
