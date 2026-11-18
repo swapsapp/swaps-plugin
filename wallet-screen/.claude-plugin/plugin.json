@@ -9,6 +9,8 @@
     "url": "https://www.swaps.app"
   },
   "homepage": "https://www.swaps.app/search#wallet-screen-coverage",
+  "documentationUrl": "https://docs.swaps.app/agents-mcp#swaps-in-claude",
+  "supportUrl": "mailto:support@swaps.app",
   "repository": "https://github.com/swapsapp/swaps-plugin",
   "license": "MIT",
   "keywords": [
